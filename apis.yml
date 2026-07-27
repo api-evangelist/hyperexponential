@@ -1,8 +1,18 @@
 aid: hyperexponential
 name: hyperexponential
-description: hyperexponential is a company surfaced as a portfolio company of a16z, battery-ventures and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  hyperexponential (hx) is a London-based insurtech that builds the #1 pricing and
+  underwriting decision platform for commercial property & casualty (P&C) insurance.
+  Its platform - spanning the Hyperoperator agentic assistant, a no-code Workflow
+  Builder, Calculation Engines, and Portfolio Intelligence - lets actuaries and
+  underwriters build, deploy, and iterate pricing models and underwriting workflows
+  without heavy engineering. Carriers use hx to automate submission triage, risk
+  assessment, renewals, portfolio monitoring, and regulatory compliance, with top
+  global carriers running $75bn+ in annual commercial P&C premium on the platform.
+  hyperexponential is backed by a16z and Battery Ventures. This API Evangelist
+  profile tracks the company's public developer, security, and compliance surface;
+  hx does not publish a public developer portal or OpenAPI, so this repo is enriched
+  from identity, trust-center, and domain-security signals.
 url: https://raw.githubusercontent.com/api-evangelist/hyperexponential/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,14 +21,57 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://framerusercontent.com/assets/R6YqZdzu7VoiGi8V3lFxTFPhg.png
 tags:
 - Company
+- Insurance
+- Insurtech
+- Underwriting
+- Pricing
+- Property and Casualty
+- Actuarial
+- SaaS
 apis: []
+common:
+- type: TrustCenter
+  url: security/hyperexponential-trust-center.yml
+- type: DomainSecurity
+  url: security/hyperexponential-domain-security.yml
+- type: Website
+  url: https://www.hyperexponential.com
+- type: Blog
+  url: https://www.hyperexponential.com/blog
+- type: GitHubOrganization
+  url: https://github.com/hyperexponential
+- type: TermsOfService
+  url: https://www.hyperexponential.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.hyperexponential.com/privacy-policy
+- type: Compliance
+  url: https://trust.hyperexponential.com/
+- type: LLMsTxt
+  url: llms/hyperexponential-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
