@@ -64,6 +64,85 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-hyperexponential is a company surfaced as a portfolio company of a16z, battery-ventures and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+hyperexponential (hx) is a London-based insurtech that builds the #1 pricing and underwriting decision platform for commercial property & casualty (P&C) insurance. Its platform - spanning the Hyperoperator agentic assistant, a no-code Workflow Builder, Calculation Engines, and Portfolio Intelligence - lets actuaries and underwriters build, deploy, and iterate pricing models and underwriting workflows without heavy engineering. Carriers use hx to automate submission triage, risk assessment, renewals, portfolio monitoring, and regulatory compliance, with top global carriers running $75bn+ in annual commercial P&C premium on the platform. hyperexponential is backed by a16z and Battery Ventures. This API Evangelist profile tracks the company's public developer, security, and compliance surface; hx does not publish a public developer portal or OpenAPI, so this repo is enriched from identity, trust-center, and domain-security signals.
 
-Backed by: a16z, battery-ventures
+**Areas:** Company · Insurance · Insurtech · Underwriting · Pricing · Property and Casualty · Actuarial · Software-as-a-Service
+
+## hyperexponential on APIs.io
+
+Everything profiled for hyperexponential is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/hyperexponential/](https://apis.io/providers/hyperexponential/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Hyperexponential Domain Security](https://apis.io/security/hyperexponential/hyperexponential-domain-security/)
+- [Hyperexponential Trust Center](https://apis.io/security/hyperexponential/hyperexponential-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.hyperexponential.com)
+- [Blog](https://www.hyperexponential.com/blog)
+- [Compliance](https://trust.hyperexponential.com/)
+- [Terms of service](https://www.hyperexponential.com/terms-and-conditions)
+- [Privacy policy](https://www.hyperexponential.com/privacy-policy)
+- [GitHub](https://github.com/hyperexponential)
+
+## API Evangelist rating
+
+**Kin Score 13.7** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 36.8 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 16.7** — Insurance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/hyperexponential/](https://apis.io/providers/hyperexponential/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for hyperexponential: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/hyperexponential/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
